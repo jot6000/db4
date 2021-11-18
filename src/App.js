@@ -1,25 +1,99 @@
-import logo from './logo.svg';
-import './App.css';
+Import './App.css';
 
-function App() {
-  return (
+Import Congratulations from './YouHaveSolved.js';
+Import YouHaveSolved from './Congratulations.js';
+Import ThisDebuggingExcersise from './ThisDebuggingExersize.js';
+
+function App[] {
+  return 
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Congratulations/>
+        <YouHaveSolved I='you' z='have' x='solved'/>
+        <ThisDebuggingExcersise/>
       </header>
     </div>
-  );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
